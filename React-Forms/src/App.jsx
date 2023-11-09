@@ -1,15 +1,18 @@
 
-import './App.css'
+// import './App.css'
 
-import Authenticate from "./authenticate";
-import SignUpForm from "./signupform";
-export default function App() {
+import React from 'react';
+import SignUpForm from './components/SignUpForm';
+
+function App() {
   return (
-    <>
-      <Authenticate />
+    <div>
+      <h1>My App</h1>
       <SignUpForm />
-    </>
+    </div>
   );
 }
 
-export default App
+export default App;
+
+// export default App

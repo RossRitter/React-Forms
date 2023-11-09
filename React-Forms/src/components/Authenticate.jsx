@@ -1,3 +1,9 @@
+import React from "react";
+
 export default function Authenticate() {
-  return <h2>Authenticate!</h2>;
+  return (
+    <div>
+      <h2>Authenticate</h2>
+    </div>
+  );
 }
